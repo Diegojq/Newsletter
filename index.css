@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;                                                                
+}
+
+:root{
+    --Tomato: hsl(4, 100%, 67%);
+    --Dark-Slate-Grey: hsl(234, 29%, 20%);
+    --Charcoal-Grey: hsl(235, 18%, 26%);
+    --Grey: hsl(231, 7%, 60%);
+    --White: hsl(0, 0%, 100%);
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--Charcoal-Grey);
+    font-family: 'Roboto', sans-serif;
+    color: var(--Dark-Slate-Grey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter{
+    width: 928px;
+    height: 641px;
+    display: flex;
+    background-color: var(--White);
+    border-radius: 36px;
+}
+
+.left{
+    margin: 97px 64px 98px 64px;
+    font-size: 1.6rem;
+}
+
+.left h1{
+    font-size: 5.6rem;
+    margin-bottom: 24px;
+}
+
+.left div{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+}
+
+.icon-list{
+    width: 21px;
+    height: 21px;
+    margin-right: 16px;  
+}
+
+div img:nth-child(3){
+ margin: 13px 0 13px 0;
+}
+
+.left h1 + p{
+    margin-bottom: 24px;
+}
+
+div p:nth-child(4){
+    margin: 10px 0 10px 0;
+}
+
+
+label p{
+    margin-top: 40px;
+    margin-bottom: 8px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.email{
+    width: 376px;
+    height: 56px;
+    border-radius: 8px;
+    border: 1px solid var(--Grey);
+    padding-left:24px;    
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.email:active{
+    border: 1px solid var(--Grey);
+}
+
+.submit{
+    width: 376px;
+    height: 56px;
+    border-radius: 8px;
+    background-color: var(--Dark-Slate-Grey);
+    border: none;
+    color: var(--White);
+    font-weight: 700;
+    line-height: 150%;
+    margin-top: 24px;
+    cursor: pointer;
+
+}
+
+.submit:hover{
+    background: var(--gradient-1, linear-gradient(225deg, #FF6A3A 0%, #FF527B 100%));
+    box-shadow: 0px 16px 32px 0px rgba(255, 97, 85, 0.50);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.right{
+    margin: 24px 24px 24px 0px;
+}
