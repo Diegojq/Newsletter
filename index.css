@@ -5,15 +5,16 @@
 }
 
 html{
-    font-size: 62.5%;                                                                
+    font-size: 62.5%;
 }
 
 :root{
-    --Tomato: hsl(4, 100%, 67%);
+    --Tomato: rgb(255, 98, 87);
     --Dark-Slate-Grey: hsl(234, 29%, 20%);
     --Charcoal-Grey: hsl(235, 18%, 26%);
     --Grey: hsl(231, 7%, 60%);
     --White: hsl(0, 0%, 100%);
+    --gradient-1: linear-gradient(225deg, #FF6A3A 0%, #FF527B 100%);
 }
 
 body {
@@ -54,7 +55,7 @@ body {
 .icon-list{
     width: 21px;
     height: 21px;
-    margin-right: 16px;  
+    margin-right: 16px;
 }
 
 div img:nth-child(3){
@@ -70,9 +71,8 @@ div p:nth-child(4){
 }
 
 
-label p{
+form {
     margin-top: 40px;
-    margin-bottom: 8px;
     font-size: 1.2rem;
     font-weight: 700;
 }
@@ -82,12 +82,12 @@ label p{
     height: 56px;
     border-radius: 8px;
     border: 1px solid var(--Grey);
-    padding-left:24px;    
+    padding-left:24px;
     cursor: pointer;
     font-weight: 400;
 }
 
-.email:active{
+.email:focus{
     border: 1px solid var(--Grey);
 }
 
@@ -106,20 +106,9 @@ label p{
 }
 
 .submit:hover{
-    background: var(--gradient-1, linear-gradient(225deg, #FF6A3A 0%, #FF527B 100%));
+    background: var(--gradient-1);
     box-shadow: 0px 16px 32px 0px rgba(255, 97, 85, 0.50);
 }
-
-
-
-
-
-
-
-
-
-
-
 
 .right{
     margin: 24px 24px 24px 0px;
