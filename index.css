@@ -29,21 +29,21 @@ body {
 }
 
 .newsletter{
-    width: 928px;
-    height: 641px;
+    width: 92.8rem;
+    height: 64.1rem;
     display: flex;
     background-color: var(--White);
-    border-radius: 36px;
+    border-radius: 3.6rem;
 }
 
 .left{
-    margin: 97px 64px 98px 64px;
+    margin: 9.7rem 6.4rem 9.8rem 6.4rem;
     font-size: 1.6rem;
 }
 
 .left h1{
     font-size: 5.6rem;
-    margin-bottom: 24px;
+    margin-bottom: 2.4rem;
 }
 
 .left div{
@@ -53,63 +53,63 @@ body {
 }
 
 .icon-list{
-    width: 21px;
-    height: 21px;
-    margin-right: 16px;
+    width: 2.1rem;
+    height: 2.1rem;
+    margin-right: 1.6rem;
 }
 
 div img:nth-child(3){
- margin: 13px 0 13px 0;
+ margin: 1.3rem 0 1.3rem 0;
 }
 
 .left h1 + p{
-    margin-bottom: 24px;
+    margin-bottom: 2.4rem;
 }
 
 div p:nth-child(4){
-    margin: 10px 0 10px 0;
+    margin: 1rem 0 1rem 0;
 }
 
 
 form {
-    margin-top: 40px;
+    margin-top: 4rem;
     font-size: 1.2rem;
     font-weight: 700;
 }
 
 .email{
-    width: 376px;
-    height: 56px;
-    border-radius: 8px;
-    border: 1px solid var(--Grey);
-    padding-left:24px;
+    width: 37.6rem;
+    height: 5.6rem;
+    border-radius: 0.8rem;
+    border: 0.1rem solid var(--Grey);
+    padding-left: 2.4rem;
     cursor: pointer;
     font-weight: 400;
 }
 
-.email:focus{
-    border: 1px solid var(--Grey);
+.email:active{
+    border: 0.1rem solid var(--Grey);
 }
 
 .submit{
-    width: 376px;
-    height: 56px;
-    border-radius: 8px;
+    width: 37.6rem;
+    height: 5.6rem;
+    border-radius: 0.8rem;
     background-color: var(--Dark-Slate-Grey);
     border: none;
     color: var(--White);
     font-weight: 700;
     line-height: 150%;
-    margin-top: 24px;
+    margin-top: 2.4rem;
     cursor: pointer;
 
 }
 
 .submit:hover{
     background: var(--gradient-1);
-    box-shadow: 0px 16px 32px 0px rgba(255, 97, 85, 0.50);
+    box-shadow: 0 1.6rem 3.2rem 0 rgba(255, 97, 85, 0.50);
 }
 
 .right{
-    margin: 24px 24px 24px 0px;
+    margin: 2.4rem 2.4rem 2.4rem 0;
 }
