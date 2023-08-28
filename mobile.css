@@ -28,32 +28,30 @@ body {
     align-items: center;
 }
 
-.newsletter-img-mobile{
-    display: none;
+.newsletter{
+    width: 37.5rem;
+    height: 84.2rem;
+    background-color: var(--White);
 }
 
-.newsletter{
-    width: 92.8rem;
-    height: 64.1rem;
-    display: flex;
-    background-color: var(--White);
-    border-radius: 3.6rem;
+.newsletter-img-mobile{
+    display: block;
 }
 
 .left{
-    margin: 9.7rem 6.4rem 9.8rem 6.4rem;
+    margin: 4rem 2.4rem 4rem 2.4rem;
     font-size: 1.6rem;
 }
 
 .left h1{
-    font-size: 5.6rem;
+    font-size: 4rem;
     margin-bottom: 2.4rem;
 }
 
 .left div{
     display: grid;
     grid-template-columns: auto 1fr;
-    align-items: center;
+
 }
 
 .icon-list{
@@ -82,7 +80,7 @@ form {
 }
 
 .email{
-    width: 37.6rem;
+    width: 32.7rem;
     height: 5.6rem;
     border-radius: 0.8rem;
     border: 0.1rem solid var(--Grey);
@@ -96,7 +94,7 @@ form {
 }
 
 .submit{
-    width: 37.6rem;
+    width: 32.7rem;
     height: 5.6rem;
     border-radius: 0.8rem;
     background-color: var(--Dark-Slate-Grey);
@@ -115,5 +113,4 @@ form {
 }
 
 .right{
-    margin: 2.4rem 2.4rem 2.4rem 0;
-}
+    display: none;}
