@@ -1,119 +1,155 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-html{
-    font-size: 62.5%;
+html {
+  font-size: 62.5%;
 }
 
-:root{
-    --Tomato: rgb(255, 98, 87);
-    --Dark-Slate-Grey: hsl(234, 29%, 20%);
-    --Charcoal-Grey: hsl(235, 18%, 26%);
-    --Grey: hsl(231, 7%, 60%);
-    --White: hsl(0, 0%, 100%);
-    --gradient-1: linear-gradient(225deg, #FF6A3A 0%, #FF527B 100%);
+:root {
+  --Tomato: rgb(255, 98, 87);
+  --Dark-Slate-Grey: hsl(234, 29%, 20%);
+  --Charcoal-Grey: hsl(235, 18%, 26%);
+  --Grey: hsl(231, 7%, 60%);
+  --White: hsl(0, 0%, 100%);
+  --gradient-1: linear-gradient(225deg, #ff6a3a 0%, #ff527b 100%);
 }
 
 body {
-    width: 100vw;
-    height: 100vh;
-    background-color: var(--Charcoal-Grey);
-    font-family: 'Roboto', sans-serif;
-    color: var(--Dark-Slate-Grey);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--Charcoal-Grey);
+  font-family: "Roboto", sans-serif;
+  color: var(--Dark-Slate-Grey);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.newsletter-img-mobile{
-    display: none;
+.newsletter-img-mobile {
+  display: none;
 }
 
-.newsletter{
-    width: 92.8rem;
-    height: 64.1rem;
-    display: flex;
-    background-color: var(--White);
-    border-radius: 3.6rem;
+.newsletter {
+  width: 92.8rem;
+  height: 64.1rem;
+  display: flex;
+  background-color: var(--White);
+  border-radius: 3.6rem;
 }
 
-.left{
-    margin: 9.7rem 6.4rem 9.8rem 6.4rem;
-    font-size: 1.6rem;
+.left {
+  margin: 9.7rem 6.4rem 9.8rem 6.4rem;
+  font-size: 1.6rem;
 }
 
-.left h1{
-    font-size: 5.6rem;
-    margin-bottom: 2.4rem;
+.left h1 {
+  font-size: 5.6rem;
+  margin-bottom: 2.4rem;
 }
 
-.left div{
-    display: grid;
-    grid-template-columns: auto 1fr;
-    align-items: center;
+.left div {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
 }
 
-.icon-list{
-    width: 2.1rem;
-    height: 2.1rem;
-    margin-right: 1.6rem;
+.icon-list {
+  width: 2.1rem;
+  height: 2.1rem;
+  margin-right: 1.6rem;
 }
 
-div img:nth-child(3){
- margin: 1.3rem 0 1.3rem 0;
+div img:nth-child(3) {
+  margin: 1.3rem 0 1.3rem 0;
 }
 
-.left h1 + p{
-    margin-bottom: 2.4rem;
+.left h1 + p {
+  margin-bottom: 2.4rem;
 }
 
-div p:nth-child(4){
-    margin: 1rem 0 1rem 0;
+div p:nth-child(4) {
+  margin: 1rem 0 1rem 0;
 }
-
 
 form {
-    margin-top: 4rem;
-    font-size: 1.2rem;
-    font-weight: 700;
+  margin-top: 4rem;
+  font-size: 1.2rem;
+  font-weight: 700;
 }
 
-.email{
-    width: 37.6rem;
-    height: 5.6rem;
-    border-radius: 0.8rem;
-    border: 0.1rem solid var(--Grey);
-    padding-left: 2.4rem;
-    cursor: pointer;
-    font-weight: 400;
+.email {
+  width: 37.6rem;
+  height: 5.6rem;
+  border-radius: 0.8rem;
+  border: 0.1rem solid var(--Grey);
+  padding-left: 2.4rem;
+  cursor: pointer;
+  font-weight: 400;
 }
 
-.email:active{
-    border: 0.1rem solid var(--Grey);
+.email:active {
+  border: 0.1rem solid var(--Grey);
 }
 
-.submit{
-    width: 37.6rem;
-    height: 5.6rem;
-    border-radius: 0.8rem;
-    background-color: var(--Dark-Slate-Grey);
-    border: none;
-    color: var(--White);
-    font-weight: 700;
-    line-height: 150%;
-    margin-top: 2.4rem;
-    cursor: pointer;
-
+.submit {
+  width: 37.6rem;
+  height: 5.6rem;
+  border-radius: 0.8rem;
+  background-color: var(--Dark-Slate-Grey);
+  border: none;
+  color: var(--White);
+  font-weight: 700;
+  line-height: 150%;
+  margin-top: 2.4rem;
+  cursor: pointer;
 }
 
-.submit:hover{
-    background: var(--gradient-1);
-    box-shadow: 0 1.6rem 3.2rem 0 rgba(255, 97, 85, 0.50);
+.submit:hover {
+  background: var(--gradient-1);
+  box-shadow: 0 1.6rem 3.2rem 0 rgba(255, 97, 85, 0.5);
 }
 
-.right{
-    margin: 2.4rem 2.4rem 2.4rem 0;
+.right {
+  margin: 2.4rem 2.4rem 2.4rem 0;
+}
+
+.success-oculto {
+  display: none;
+}
+
+.success-container {
+  width: 50rem;
+  height: 52rem;
+  margin: 0 auto;
+  padding: 5rem;
+  border-radius: 3.6rem;
+  background-color: var(--White);
+}
+
+.success__icon {
+  width: 6.4rem;
+  height: 6.4rem;
+  margin-bottom: 3rem;
+}
+
+.success__title {
+  font-size: 6rem;
+  line-height: 6rem;
+  margin-bottom: 2rem;
+}
+
+.success__description {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.oculto {
+  display: none;
+}
+
+.visible {
+  display: block;
 }
